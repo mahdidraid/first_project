@@ -13,5 +13,63 @@
 
 body{
     font-size: 'Josefine Sans' sans-serif; 
-    background-color: aqua;
+    background-color: rgb(172, 236, 236);
+    color: #141517;
+} 
+
+/* 
+==============================================================
+
+       start nae
+
+==============================================================
+*/
+nav{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 39px;
 }
+nav .list{ 
+    
+} 
+nav .list .list-itme{
+    display: inline-block;
+    position: relative;
+   
+}
+nav .list .list-itme  > a{
+    text-decoration: none;
+    color: #141517;
+    font-size: 19Px;
+    margin-left: 20px;
+   
+ 
+}
+nav .list .list-itme .drop{
+    position: absolute; 
+    background: #fff;
+    list-style: none;
+    width: 170px;
+    padding: 25px 0;
+    top: 38px;
+    left: 20px;
+    border-top: 5px solid #00f;
+    border-top-left-radius:13px ;
+    border-top-right-radius: 13px;
+}nav .list .list-itme .drop .drop-itme{
+    margin-bottom: 20px;
+}
+
+nav .list .list-itme .drop .drop-itme a{
+    margin:22 px 20px ;
+    text-decoration: none;
+    font-size: 22px;
+    color: #141517;
+
+}
+nav .icon a{
+  margin-left: 25px;
+  color:#141517 ;
+} 
